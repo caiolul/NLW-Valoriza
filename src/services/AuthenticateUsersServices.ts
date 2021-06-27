@@ -25,7 +25,6 @@ export default class AuthenticatedUsersService {
     const token = sign(
       {
         email: user.email,
-        admin: user.admin,
       },
       process.env.KEY,
       {
