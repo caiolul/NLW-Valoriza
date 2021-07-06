@@ -1,14 +1,14 @@
 import { Router } from "express";
-import { AuthenticatedUsersController } from "./controllers/AuthenticateUserController";
-import { CreateComplimentController } from "./controllers/CreateComplimentController";
-import { CreateTagController } from "./controllers/CreateTagController";
-import { CreateUserController } from "./controllers/CreateUserController";
-import { ListTagsController } from "./controllers/ListTagsController";
-import { ListUserRecieveComplimentsController } from "./controllers/ListUserRecieveComplimentsController";
-import { ListUsersController } from "./controllers/ListUsersController";
-import { ListUserSendComplimentsController } from "./controllers/ListUserSendComplimentsController";
-import { ensureAdmin } from "./middlewares/ensureAdmin";
-import { ensureAuthenticate } from "./middlewares/ensureAuthenticate";
+import { AuthenticatedUsersController } from "@controllers/AuthenticateUserController";
+import { CreateComplimentController } from "@controllers/CreateComplimentController";
+import { CreateTagController } from "@controllers/CreateTagController";
+import { CreateUserController } from "@controllers/CreateUserController";
+import { ListTagsController } from "@controllers/ListTagsController";
+import { ListUserRecieveComplimentsController } from "@controllers/ListUserRecieveComplimentsController";
+import { ListUsersController } from "@controllers/ListUsersController";
+import { ListUserSendComplimentsController } from "@controllers/ListUserSendComplimentsController";
+import { ensureAdmin } from "@middlewares/ensureAdmin";
+import { ensureAuthenticate } from "@middlewares/ensureAuthenticate";
 
 const routes = Router();
 

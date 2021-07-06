@@ -1,7 +1,6 @@
 import { getCustomRepository } from "typeorm";
-import { UserRepositories } from "../repositories/UserRepositories";
-
 import { classToPlain } from "class-transformer";
+import { UserRepositories } from "@repositories/UserRepositories";
 
 export class ListUsersServices {
   async execute() {

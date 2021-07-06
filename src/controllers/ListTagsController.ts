@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ListTagsServices } from "../services/ListTagsServices";
+import { ListTagsServices } from "@services/ListTagsServices";
 
 export class ListTagsController {
   async handle(request: Request, response: Response) {
